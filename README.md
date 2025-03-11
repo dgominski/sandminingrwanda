@@ -32,7 +32,6 @@ The script handles annotation rectangles covering multiple rasters (using raster
  ⚠️ There might be issues if there is a mismatch between the CRS of the rasters and the CRS of the annotation files. If you encounter this, please convert them to the same CRS, 
 or uncomment the lines converting geometries to a common provided --crs 
 
-*  prepares frames from point annotations and preprocessed rasters.
 
 ---
 
