@@ -9,7 +9,7 @@ You can use the provided .yml Conda environment file to install dependencies int
 ```
 # From repo root
 conda env create -f env.yml
-conda activate treemapping
+conda activate sandmining
 ```
 Make sure Pytorch and CUDA versions are compatible with your system.
 
