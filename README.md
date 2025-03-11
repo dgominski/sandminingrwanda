@@ -1,5 +1,6 @@
+[![DOI](https://zenodo.org/badge/946689635.svg)](https://doi.org/10.5281/zenodo.15006791)
 
-# Sand Mining in Rwanda with TransUNet (PyTorch)
+# Sand Mining in Rwanda with TransUNet (PyTorch) 
 
 This repository contains the code for training a TransUNet model for segmenting sand mining sites in Rwanda, with high resolution aerial imagery.
 
