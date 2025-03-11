@@ -43,10 +43,7 @@ class SandMiningDataset(torch.utils.data.Dataset):
         self.load_data()
 
     def __getitem__(self, index):
-        # img, target, valid = self.get_frame()
-        img = np.zeros((3, 256, 256))
-        target = np.zeros((256, 256))
-        valid = np.zeros((256, 256))
+        img, target, valid = self.get_frame()
         cropped = self.cropper(image=img.transpose(1, 2, 0), mask=target, valid=valid.astype('float'))
 
         if self.mode == "train":
